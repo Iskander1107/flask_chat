@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="F:\flask_auth_scotch-master\flask_auth_scotch-master\venv"
+VIRTUAL_ENV="D:\flask_chat\server\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

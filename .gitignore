@@ -1,4 +1,5 @@
 /server/server_venv
+/server/venv
 /client/venv
 /client/.idea
 /server/__pycache__

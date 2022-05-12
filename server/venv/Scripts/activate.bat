@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=F:\flask_auth_scotch-master\flask_auth_scotch-master\venv
+set VIRTUAL_ENV=D:\flask_chat\server\venv
 
 if not defined PROMPT set PROMPT=$P$G
 

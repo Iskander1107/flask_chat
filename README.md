@@ -12,15 +12,42 @@
 Можно зарегистрировать новый аккаунт.
 
 Запуск:<br>
-В папке server запустить терминал и вставить `flask run`
+Запускаем терминал в директории `server`
+>python -m venv venv
+
+>.\venv\Scripts\activate
+
+>pip install -r requirements.txt
+
+>set FLASK_APP=server_flask_alimov
+
+>flask run
+
 и в браузере зайти на `http://localhost:5000/`
 
 **Клиент**
 
 Многопользовательский чат
+Запускаем терминал в директории `client`
+>python -m venv venv
 
-Запустить сервер `python server_mess.py`
-а затем запустить `client.py` или `client2.py` (можно оба сразу)
+>.\venv\Scripts\activate
+
+>pip install -r requirements.txt
+
+Запустить сервер 
+
+>python server_mess.py
+
+A затем запустить `client.py` или `client2.py` (можно оба сразу)
+
+Запускать клиентов нужно с нового терминала предварительно запустив виртуальную среду
+
+>python -m venv venv
+
+>.\venv\Scripts\activate
+
+>python [client.py / client2.py]
 
 Регистрацию проходить на `http://localhost:5000/`, где после запроса сервер вернет name(если правильно вбили)
 
