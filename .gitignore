@@ -1,6 +1,6 @@
-/server/server_venv
-/server/venv
-/client/venv
-/client/.idea
-/server/__pycache__
-/server/.idea
+./server/server_venv
+./server/venv
+./client/venv
+./client/.idea
+./server/__pycache__
+./server/.idea
